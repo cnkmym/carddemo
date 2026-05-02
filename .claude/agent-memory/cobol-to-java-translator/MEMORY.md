@@ -1,0 +1,5 @@
+- [CardDemo DB2 ↔ VSAM TRANTYPE sync model](project_carddemo_db2_sync_model.md) — DB2 admin, VSAM runtime, daily TRANEXTR JCL is the one-way bridge.
+- [CardDemo DCLGEN VARCHAR host-variable pattern](reference_carddemo_dclgen_pattern.md) — `49`-level len+text pair; reference-modification required when reading.
+- [CardDemo extension module structure](project_carddemo_extensions.md) — three independent extension modules under `app/`; share core VSAM but disjoint queues/schemas/CSD groups
+- [CardDemo doc format conventions](feedback_doc_format.md) — per-module deep dives go under `docs/cobol/`, markdown headings only, backticks for technical names, ~700-1100 lines per module
+- [CardDemo IMS patterns and conventions](project_ims_patterns_carddemo.md) — PCB indexing differs online (+1) vs BMP (+2); inverted timestamp keys; pseudo-conversational PSB lifecycle; `'TC'` recovery pattern
